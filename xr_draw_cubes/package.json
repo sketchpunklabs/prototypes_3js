@@ -1,0 +1,27 @@
+{
+    "name"          : "XR Draw Cubes",
+    "version"       : "0.0.0.1",
+    "description"   : "",
+    "keywords"      : [ "threejs", "3d", "webxr" ],
+    "repository"    : { "url": "https://github.com/sketchpunklabs/prototypes_3js.git", "type": "git" },
+    "author"        : { "name": "Sketchpunk" },
+    "license"       : "MIT",
+    "main"          : "",
+    "module"        : "",
+    "files"         : [],
+
+    "devDependencies": {
+        "browser-sync"  : "^2.27.5"
+    },
+
+    "dependencies": {
+        "three"     : "0.132.2",
+        "gl-matrix" : "^3.4.3"
+    },
+
+    "scripts": {
+        "test"      : "echo \"Error: no test specified\" && exit 1",
+        "bsyncInit" : "browser-sync init",
+        "start"     : "browser-sync start --config bs-config.js"
+    }
+}
